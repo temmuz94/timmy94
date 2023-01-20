@@ -9,7 +9,7 @@ public class whileLoop2r {
         boolean tired= t.nextBoolean();
         while (!tired) {
             System.out.println("continue to work");
- tired= t.nextBoolean();
+            break;
         }
 
     }
